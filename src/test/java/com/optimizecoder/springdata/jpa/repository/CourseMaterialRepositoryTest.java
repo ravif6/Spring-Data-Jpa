@@ -21,6 +21,8 @@ class CourseMaterialRepositoryTest {
     @Test
     void saveCourseMaterial(){
 
+        // added beacause optional = false to course in courseMaterial
+
         Course course = Course.builder()
                 .title("Spring")
                 .credit(3)
